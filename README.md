@@ -17,7 +17,7 @@ Further Information on this framework can  be found at the following:
 * Ensure you have a [Git client](https://git-scm.com/downloads) and [Gradle](https://gradle.org/) installed (or use via your IDE or other tools)
 * Install [Firefox](https://www.mozilla.org/en-US/firefox/new/).  The default browser used in this demo project is Firefox.
 * `cd` to a relevant folder
-* `git clone https://github.com/concordion/cubano-demo.git` or download and unzip this project
+* `git clone https://github.com/karl-osd/westpac.git` or download and unzip this project
 * Import as a Gradle project into your IDE (e.g. for Eclipse, ensure [Buildship](http://www.eclipse.org/buildship) is installed, then File > Import > Gradle > Existing Gradle Project > follow the wizard)
 
 ## A note on Browsers
