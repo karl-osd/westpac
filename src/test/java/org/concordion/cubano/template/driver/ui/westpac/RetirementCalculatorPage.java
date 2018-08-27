@@ -62,11 +62,10 @@ public class RetirementCalculatorPage extends PageObject<RetirementCalculatorPag
         }
 
     private void switchToIframe() throws Exception {
-        //todo fix this mess ....
-        Thread.sleep(5000);
-        //waitUntilAjaxRequestsCompleted();
-
+        Thread.sleep(2000);
         getBrowser().getDriver().switchTo().frame(iframe);
+        waitUntilAjaxRequestsCompleted();
+        waitUntil(ExpectedConditions.elementToBeClickable(employmentStatusRow), 5);
     }
 
     public String getCurrentAgeInformation() throws Exception {
